@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 use App\Models\TestMongo;
+use App\Models\TestMySQL;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -28,5 +30,15 @@ Route::get('/test', function () {
     $res = TestMongo::all();
     // $res = DB::connection('mongodb')->collection('test001');
     // ->all();  //查询所有数据
+    dd($res);
+});
+
+
+Route::get('/test2', function () {
+   
+
+
+    $res = TestMySQL::count();
+
     dd($res);
 });
