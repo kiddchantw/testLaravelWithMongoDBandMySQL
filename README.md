@@ -12,7 +12,9 @@
     - model B via MongoDB
     - .env放兩種設定檔
  
-- [ ] medium 文章介紹
+- [x] medium 文章介紹
+    https://medium.com/kidd88/laravel-eloquent-orm-and-restful-api-3cf16229ae5d
+
 
 
 
